@@ -68,16 +68,6 @@ This is a static website, so it can be deployed with GitHub Pages, Netlify, Verc
 
 No build command is required.
 
-## Customization
-
-Edit `index.html` to update:
-
-- Hero text and tagline
-- Services
-- Contact email
-- Social links
-- Theme colors in the `:root` CSS variables
-
 ## Contact
 
 - Website: [mdrakib.xyz](https://mdrakib.xyz/)
