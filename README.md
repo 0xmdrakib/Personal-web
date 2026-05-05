@@ -1,11 +1,16 @@
-[README.md](https://github.com/user-attachments/files/27413658/README.md)
 <div align="center">
 
-# Md. Rakib — Personal Portfolio
+# Md. Rakib — Personal Portfolio Website
 
-A responsive one-page portfolio website for **Md. Rakib**, built with HTML, CSS, and vanilla JavaScript.
+**A responsive one-page portfolio for Md. Rakib — Digital Architect & Innovation Engineer.**
 
-[Live Site](https://mdrakib.xyz/) · [Email](mailto:0xmdrakib@gmail.com) · [GitHub](https://github.com/0xmdrakib)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-b8892c?style=for-the-badge&logo=vercel&logoColor=white)](https://mdrakib.xyz/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#tech-stack)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#tech-stack)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)](#tech-stack)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+[Live Website](https://mdrakib.xyz/) · [Contact](mailto:0xmdrakib@gmail.com) · [GitHub](https://github.com/0xmdrakib)
 
 </div>
 
@@ -13,23 +18,25 @@ A responsive one-page portfolio website for **Md. Rakib**, built with HTML, CSS,
 
 ## Overview
 
-This repository contains the source code for a personal portfolio website. It highlights services, experience, contact details, and a project inquiry form in a clean single-page layout.
+This is a static personal portfolio website built with plain **HTML**, **CSS**, and **JavaScript**. It presents Rakib's digital identity, services, contact details, and project inquiry form in a clean single-page layout.
 
 ## Features
 
 - Responsive layout for desktop and mobile
-- Animated hero section and visual effects
+- Animated hero section with visual effects
 - Smooth scrolling navigation
-- Services section for Web3, AI, ML, web, mobile, UI/UX, and cloud work
+- Service sections for Web3, AI, ML, web, mobile, UI/UX, and cloud work
 - Contact form using a `mailto:` workflow
-- No build step or dependencies required
+- No dependencies or build step required
 
 ## Tech Stack
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Google Fonts
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure |
+| CSS3 | Styling, layout, and animations |
+| JavaScript | Interactions and form behavior |
+| Google Fonts | Typography |
 
 ## Project Structure
 
@@ -43,30 +50,19 @@ Personal-web-main/
 
 ## Run Locally
 
-Clone the repository:
-
 ```bash
 git clone https://github.com/0xmdrakib/Personal-web.git
 cd Personal-web
-```
-
-Open `index.html` in your browser, or run a local server:
-
-```bash
 python -m http.server 8000
 ```
 
-Then visit:
+Then open:
 
 ```text
 http://localhost:8000
 ```
 
-## Deployment
-
-This is a static website, so it can be deployed with GitHub Pages, Netlify, Vercel, Cloudflare Pages, or any static hosting provider.
-
-No build command is required.
+You can also open `index.html` directly in your browser.
 
 ## Contact
 
