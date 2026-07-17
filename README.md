@@ -37,32 +37,6 @@ This is a static personal portfolio website built with plain **HTML**, **CSS**, 
 | JavaScript | Interactions and form behavior |
 | Google Fonts | Typography |
 
-## Project Structure
-
-```text
-Personal-web-main/
-├── index.html
-├── favicon.png
-├── LICENSE
-└── README.md
-```
-
-## Run Locally
-
-```bash
-git clone https://github.com/0xmdrakib/Personal-web.git
-cd Personal-web
-python -m http.server 8000
-```
-
-Then open:
-
-```text
-http://localhost:8000
-```
-
-You can also open `index.html` directly in your browser.
-
 ## Contact
 
 - Website: [mdrakib.xyz](https://mdrakib.xyz/)
