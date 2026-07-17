@@ -110,7 +110,7 @@ nav.scrolled{
   position:relative;z-index:1;overflow:clip;isolation:isolate;
 }
 .hero-left{
-  display:flex;flex-direction:column;justify-content:center;
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
   padding:calc(var(--nav-h)+72px) var(--page-pad) clamp(52px,7vw,80px);
   border-right:1px solid var(--border);
   position:relative;
@@ -118,9 +118,13 @@ nav.scrolled{
 }
 .hero-left::after{content:'';position:absolute;bottom:0;left:var(--page-pad);right:var(--page-pad);height:1px;background:linear-gradient(90deg,var(--border2),transparent);}
 .hero-copy{
-  width:min(100%,var(--hero-copy-max));
-  margin:0 auto;
+  width:min(100%,36rem);
+  margin-inline:auto;
   padding-inline:var(--hero-copy-pad);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
   position:relative;z-index:2;
 }
 
@@ -172,6 +176,8 @@ h1.hero-h em{font-style:italic;color:var(--gold);}
 }
 .coord-sep{width:1px;height:24px;background:var(--border2);flex-shrink:0;}
 .hero-btns{display:flex;gap:18px;align-items:center;flex-wrap:wrap;animation:fadeUp .8s 1.1s ease both;}
+.sbadge,.eyebrow,.coord,.hero-btns{justify-content:center;}
+.hero-desc,.tagline,h1.hero-h{text-align:center;}
 .btn{
   display:inline-flex;align-items:center;justify-content:center;padding:13px 34px;
   font-family:'Inconsolata',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;
@@ -290,8 +296,6 @@ h1.hero-h em{font-style:italic;color:var(--gold);}
 .sec-h em{font-style:italic;color:var(--gold);}
 .sec-sub{font-size:1rem;color:var(--muted);line-height:1.9;}
 .sec-center{text-align:center;margin-bottom:72px;}
-.sec-center .sec-eyebrow{justify-content:center;}
-.sec-center .sec-eyebrow::before{display:none;}
 .sec-center .sec-sub{max-width:540px;margin:0 auto;}
 
 /* ── SERVICES catalog ── */
@@ -752,8 +756,7 @@ footer{
 <section id="services" class="section svc-bg">
   <div class="mw">
     <div class="sec-center r">
-      <div class="sec-eyebrow">Selected Capabilities</div>
-      <h2 class="sec-h">What I <em>Do</em></h2>
+      <h2 class="sec-h">What I Do</h2>
       <p class="sec-sub">Delivering world-class digital solutions tailored to your unique vision and business goals.</p>
     </div>
     <div class="catalog">
